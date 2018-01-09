@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some info about me, in case you're curious. Don't be afraid to hit me up! I've been told I can amiable if necessary.
+Some info about me, in case you're curious. Don't be afraid to hit me up! I've been told I can be amiable if necessary.
 
 ### What I (Try To) Do
 

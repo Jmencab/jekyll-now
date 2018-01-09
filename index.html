@@ -14,10 +14,8 @@ layout: default
 
 <div class="blog-tease">  
   <h1>Read The Latest Blog Entry:</h1>
-  {% assign post = site.posts.first %}
   <div class="posts">
       {% assign post = site.posts.first %}
-      {% assign content = post.content %}
       <h1 class="entry-title">
         <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
       </h1>
