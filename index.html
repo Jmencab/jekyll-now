@@ -15,7 +15,6 @@ layout: default
 <div class="blog-tease">  
   <h1>Read The Latest Blog Entry:</h1>
   {% assign post = site.posts.first %}
-  {% assign content = post.content %}
   <div class="posts">
       {% assign post = site.posts.first %}
       {% assign content = post.content %}
@@ -27,7 +26,7 @@ layout: default
         <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
       </h1>      
       {% endif %}
-    <div class="entry-content">{{ content }}</div>
+    <div class="entry-content">{{post.excerpt}}</div>
     </div>
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </div>
