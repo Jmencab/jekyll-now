@@ -8,7 +8,7 @@ title: The Long Way Home
 The following post is about a particularly long day for me. As this is my first post, I am still not sure what this blog is going to be about. It may, like this post, just be me letting off steam and telling personal stories. I also have a mind to try short stories and more article-type blog posts. We’ll see where it goes. God knows I need a creative outlet because my friends are tired of hearing my stories. So I guess it’s time to tell it to the Internet (capitalized, like God).
 
 Necessary background: In the summer of 2017, when I wrote this post, I worked as an intern at Microsoft in Cambridge, MA. That was my first major job as a software developer and boy did I suck at it. I persevered and got better and actually started coming into my own by the end. This happened to me squarely in the middle of the internship, however. It was probably the longest day of the summer and so many things went wrong I thought it made for a cheeky blog post. Hope you (if anyone is reading this) enjoy!
-
+<!--excerpt-->
 ## How Not to Go to the Airport
 
 They say that the path to Hell is paved with good intentions. I say that asphalt would probably be a better source material. Indeed, the road beneath the car in which I sat definitely made a good path from our hotel to Seattle’s Sea-Tac airport. It’s too bad that the road was being traversed at 6 am despite everyone in the car having domestic flights that all left at approximately 10 am. Some people like to be on the safe side, I suppose. I was quite opposed to leaving that early-and for good reason. I started to pave my path to Hell almost as soon as I woke up that day.

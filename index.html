@@ -1,18 +1,34 @@
 ---
 layout: default
 ---
+<div class="landing">
+  <h1>Why the Title?</h1>
+  <p>Well, mainly because it rhymes, but also mainly because of the poem below:</p>
+  <img src="images/woe.jpg" alt="Monday's Child" style="display:block; margin-left: auto; margin-right:auto;">
+  <p>I was born on Wednesday November 8, 1995, and this nursery rhyme turned out to be prophetic. I am indeed full of woe. I figured I might as well write about them as my friends are tired of hearing me complain. So, reader, I hope you join me on this journey of self-pity.</p>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+  <p> Please feel free to go to the "About" section if you want to know more about me or holler at me. I'll probably holler back (I am perpetually lonely). Click on "Blog" if you want to read some personal anecodotes, short stories, and articles that I wrote. I apologize that there's only one post for now! More to come soon!</p> 
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+</div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="blog-tease">  
+  <h1>Read The Latest Blog Entry:</h1>
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  <div class="posts">
+      {% assign post = site.posts.first %}
+      {% assign content = post.content %}
+      <h1 class="entry-title">
+        <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
+      </h1>
+      {% if post.title %}
+      <h1 class="entry-title">
+        <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+      </h1>      
+      {% endif %}
+    <div class="entry-content">{{ content }}</div>
+    </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </div>
 </div>
