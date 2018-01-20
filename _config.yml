@@ -50,6 +50,11 @@ url: http://wednesdayswoeswithjul.io
 baseurl: ""
 
 excerpt_separator: "<!--excerpt-->"
+
+#TLS enforcer
+url: https://wednesdayswoeswithjul.io
+enforce_ssl: wednesdayswoeswithjul.io
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
